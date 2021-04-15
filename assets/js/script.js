@@ -1,4 +1,58 @@
-// jsnak n.5
+// jsnack n.8
+/*
+var numeri = prompt("Segli un numero di 4 cifre");
+var somma = 0;
+
+for (var i = 0; i < numeri.length; i++) {
+    console.log(numeri.charAt(1));
+    somma += parseInt(numeri.charAt(1));
+}
+
+console.log(somma);
+*/
+
+
+
+// jsnack n.7
+/*
+var limite = 1000;
+var potenza = 1;
+var counterPotenza = 1;
+
+while (potenza < limite) {
+    console.log(potenza);
+    console.log("Elevo il 2 alla " + counterPotenza);
+    potenza = Math.pow(2, counterPotenza);
+    counterPotenza++
+}
+*/
+
+
+
+// jsnack n.6
+/*
+// richiedo il numero all'utente
+var cubo = parseInt(prompt("Di quanti numeri vuoi sommare il cubo?"));
+
+// inizializzo una var per la somma
+var somma = 0;
+
+// creo un ciclo dove calcolo i cubi e li sommo
+for (var i = 1; i <= cubo; i++) {
+    console.log(i);
+    console.log(Math.pow(i, 3));
+    console.log("-------");
+    somma += Math.pow(i, 3);
+    console.log("--- SOMMA ---- " + somma);
+}
+
+// output
+console.log("La somma dei cubi è " + somma);
+*/
+
+
+
+// jsnack n.5
 /*
 // creare un array vuoto
 var arr_vuoto = [];
