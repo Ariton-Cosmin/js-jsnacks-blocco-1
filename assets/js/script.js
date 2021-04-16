@@ -1,3 +1,24 @@
+// jsnack n.9
+/*
+// fare la somma dei primi 10n.
+var arrNum = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+var somma = sommaNumeri(arrNum);
+console.log(somma);
+
+function sommaNumeri(arr) {
+    var sum = 0;
+    for (var i = 0; i < arr.length; i++) {
+        sum += arr[i];
+    }
+    return sum;
+}
+
+// fare la media
+console.log(somma / 10);
+*/
+
+
+
 // jsnack n.8
 /*
 var numeri = prompt("Segli un numero di 4 cifre");
